@@ -1,0 +1,204 @@
+/* Body/Containers/Header
+// ================================================================================================== */
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    padding: 20px;
+    background-color: blanchedalmond;
+    height: 100vh;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* .container */
+.container {
+    background-color: rgb(0, 170, 255);
+    height: 95vh;
+    border: 5px solid black;
+}
+
+/* #trivia-container */
+#trivia-container {
+    margin-top: -40px;
+    text-align: center;
+}
+
+/* #render-area */
+#render-area {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* #trivia-title */
+#trivia-title {
+    color: yellow;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 100px;
+    margin-top: -20px;
+}
+
+
+/* loadQuestion() function
+// ================================================================================================== */
+/* #trivia-questions */
+#trivia-questions {
+    color: blanchedalmond;;
+    margin-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* #time-remaining */
+#time-remaining {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* #counter-number */
+#counter-number {
+    color: blanchedalmond;
+}
+
+
+/* timeUp() function
+// ================================================================================================== */
+/* #time-up-title */
+#time-up-title {
+    color: blanchedalmond;
+}
+
+/* .time-up */
+.time-up {
+    line-height: 40px;
+}
+
+
+/* results() function
+// ================================================================================================== */
+/* #result-title */
+#result-title {
+    color: blanchedalmond;
+    margin-top: 150px;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* .result-message */
+.result-message {
+    line-height: 50px;
+}
+
+/* #result-score */
+#result-score {
+    color: blanchedalmond;
+}
+
+/* answeredIncorrectly() function
+// ================================================================================================== */
+/* #incorrect-answer, #incorrect-title */
+#incorrect-title, #incorrect-answer {
+    color: blanchedalmond;
+}
+
+/* .incorrect-section */
+.incorrect-section {
+    line-height: 40px;
+}
+
+/* answeredCorrectly() function
+// ================================================================================================== */
+/* #correct-title, #correct-answer */
+#correct-title, #correct-answer {
+    color: blanchedalmond;
+}
+
+
+/* Images
+// ================================================================================================== */
+/* img */
+img {
+    height: 250px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+
+/* Buttons
+// ================================================================================================== */
+/* #start-button */
+#start-button {
+    height: 50px;
+    width: 200px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    background-color: red;
+    cursor: pointer;
+    color: yellow;
+    border: 3px solid black;
+    margin-top: 120px;
+}
+
+/* #start-button:hover */
+#start-button:hover {
+    background-color: yellow;
+    color: red;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    border: 3px solid black;
+}
+
+/* .answer-button */
+.answer-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: yellow;
+    background-color: blue;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 520px;
+}
+
+/* .answer-button:hover */
+.answer-button:hover {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* #restart-button */
+#restart-button {
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+/* #restart-button:hover */
+#restart-button:hover {
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+    background-color: black;
+    color: yellow;
+}
